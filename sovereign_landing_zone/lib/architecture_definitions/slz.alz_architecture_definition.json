@@ -1,0 +1,89 @@
+{
+  "name": "slz",
+  "management_groups": [
+    {
+      "archetypes": ["root","global"],
+      "display_name": "Sovereign Landing Zone",
+      "id": "slz",
+      "exists": false,
+      "parent_id": null
+    },
+    {
+      "archetypes": ["platform"],
+      "display_name": "Platform",
+      "id": "slz-platform",
+      "exists": false,
+      "parent_id": "slz"
+    },
+    {
+      "archetypes": ["landing_zones"],
+      "display_name": "Landing Zones",
+      "id": "slz-landingzones",
+      "exists": false,
+      "parent_id": "slz"
+    },
+    {
+      "archetypes": ["sandbox"],
+      "display_name": "Sandbox",
+      "id": "slz-sandbox",
+      "exists": false,
+      "parent_id": "slz"
+    },
+    {
+      "archetypes": ["decommissioned"],
+      "display_name": "Decommissioned",
+      "id": "slz-decommissioned",
+      "exists": false,
+      "parent_id": "slz"
+    },
+    {
+      "archetypes": ["management"],
+      "display_name": "Management",
+      "id": "slz-platform-management",
+      "exists": false,
+      "parent_id": "slz-platform"
+    },
+    {
+      "archetypes": ["connectivity"],
+      "display_name": "Connectivity",
+      "id": "slz-platform-connectivity",
+      "exists": false,
+      "parent_id": "slz-platform"
+    },
+    {
+      "archetypes": ["identity"],
+      "display_name": "Identity",
+      "id": "slz-platform-identity",
+      "exists": false,
+      "parent_id": "slz-platform"
+    },
+    {
+      "archetypes": ["corp"],
+      "display_name": "Corp",
+      "id": "slz-landingzones-corp",
+      "exists": false,
+      "parent_id": "slz-landingzones"
+    },
+    {
+      "archetypes": ["online"],
+      "display_name": "Online",
+      "id": "slz-landingzones-online",
+      "exists": false,
+      "parent_id": "slz-landingzones"
+    },
+    {
+      "archetypes": ["corp","confidential"],
+      "display_name": "Confidential Corp",
+      "id": "slz-landingzones-confidential-corp",
+      "exists": false,
+      "parent_id": "slz-landingzones"
+    },
+    {
+      "archetypes": ["online","confidential"],
+      "display_name": "Confidential Online",
+      "id": "slz-landingzones-confidential-online",
+      "exists": false,
+      "parent_id": "slz-landingzones"
+    }
+  ]
+}
